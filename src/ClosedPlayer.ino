@@ -53,6 +53,7 @@ MFRC522 mfrc522(MFRC522_CS_PIN, MFRC522_RST_PIN);
 Button<20, 500> b_forward, b_rewind;
 SemaphoreHandle_t control_mutex;
 void uiloop(void *);
+void split(String, char, std::vector<String> *);
 
 void setup() {
   pinMode(POWER_CONTROL_PIN, OUTPUT);

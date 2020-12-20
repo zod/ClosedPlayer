@@ -26,13 +26,12 @@
 #include "WebInterface.h"  // optional!
 #include "StatusIndicator.h"
 
-#include "AudioFileSourceSD.h"
-#include "AudioFileSourceBuffer.h"
-//#include "AudioOutputBuffer.h"
-#include "AudioGeneratorMP3.h"
-#include "AudioOutputI2SNoDAC.h"
-#include "AudioOutputI2S.h"
-#include "InterruptableOutput.h"
+#include <AudioFileSourceSD.h>
+#include <AudioFileSourceBuffer.h>
+#include <AudioGeneratorMP3.h>
+#include <AudioOutputI2SNoDAC.h>
+#include <AudioOutputI2S.h>
+#include <InterruptableOutput.h>
 
 #include "config.h"
 

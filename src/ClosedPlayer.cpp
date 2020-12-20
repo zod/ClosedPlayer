@@ -54,6 +54,10 @@ Button<20, 500> b_forward, b_rewind;
 SemaphoreHandle_t control_mutex;
 void uiloop(void *);
 void split(String, char, std::vector<String> *);
+String readLine(File &);
+void startTrack(String);
+void stopPlaying();
+void loadPlaylistForUid(String);
 
 void setup() {
   pinMode(POWER_CONTROL_PIN, OUTPUT);
